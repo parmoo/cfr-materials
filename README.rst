@@ -33,7 +33,7 @@ the paper, run the following.
     cd parmoo-mdml-experiments && python3 cfr-tfmc-solver.py
 
 To fully recreate our experiments, one would need to recreate the automated
-CFR/NMR setup described in Appendix B of the paper, create a valid MDML Host,
+CFR/NMR setup described in Appendix B of the paper, [create a valid MDML Host](MDML_HOST_SETUP.rst),
 then uncomment the solve command in our script.
 
 Directory Structure
