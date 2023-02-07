@@ -42,6 +42,7 @@ Directory Structure
 The base directory contains the ``README.rst`` and ``REQUIREMENTS.txt`` files.
 
 The subdirectory ``parmoo-mdml-experiments`` contains:
+
  - ``__init__.py`` (package setup);
  - ``parmoo_mdml_extension.py`` (ParMOO ext using MDML to send experiments);
  - ``results`` (directory containing data from our 41 experiment run);
