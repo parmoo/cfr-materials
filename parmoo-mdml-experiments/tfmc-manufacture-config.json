@@ -1,0 +1,14 @@
+[{
+  "topic":"mdml-CFR-experiment-01-definition",
+  "value":{"Continuous_Par": {"T":    {"Low": 35, "High": 150},
+                              "RT":   {"Low": 60, "High": 300},
+                              "EQ1":  {"Low": 0.8, "High": 1.5}},
+           "Dependent_Par":  {"Int1": {"Description": "Product",
+                                       "Value": 40,
+                                       "Goal": "max"},
+                              "Int2": {"Description": "Byproduct",
+                                       "Value": 5,
+                                       "Goal": "min"}},
+           "search_budget":15
+          }
+}]

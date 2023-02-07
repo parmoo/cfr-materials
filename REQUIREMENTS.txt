@@ -1,0 +1,3 @@
+parmoo==0.1.0
+mdml-client
+matplotlib
