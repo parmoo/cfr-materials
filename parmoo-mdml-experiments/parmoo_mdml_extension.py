@@ -584,6 +584,15 @@ class MDML_MOOP(MOOP):
                                              kind="stable"))
                 xbatch = np.asarray(xbatch)[inds]
                 ibatch = np.asarray(ibatch)[inds]
+                if name == "T":
+                    # Break loop after identifying the temperature key.
+                    # This is a relic to make consistent with older runs,
+                    # before restructuring of scripts for reusability.
+                    # From now on, it is recommended that the "sort by"
+                    # keys be made the last keys in the definition file,
+                    # but this would change the order of our experimental
+                    # design.
+                    break
             # Send and receive each point in the batch
             status = False
             for i in range(batch_size):
