@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
     # Fix the random seed
     np.random.seed(10252021)
-   
+
 
     # Call a ParMOO/MDML funcx service locally and load its database
     sim_db = parmoo_funcx(initializer=config, reloader=data, budget=0)

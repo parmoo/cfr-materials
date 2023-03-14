@@ -398,7 +398,7 @@ class MDML_MOOP(MOOP):
                 logging.info("   Done.")
             logging.info(" Done.")
         return
-    
+
     def reload_results(self, msg_list):
         """ Reload a MDML_MOOP from a previous MDML message list.
 
@@ -463,7 +463,7 @@ class MDML_MOOP(MOOP):
         logging.info(" Done.")
         logging.info(f" {self.n_dat} results reloaded.")
         return
-    
+ 
     def send_experiments(self, producer, batch, RunIDs):
         """ Send experiments via MDML producer.produce() method.
 
@@ -483,7 +483,7 @@ class MDML_MOOP(MOOP):
             logging.info(f"   sent design: {d}")
         producer.flush()
         return
-   
+
     # Receive function
     def receive_results(self, consumer, batch_size, RunIDs):
         """ Receive MDML experiments using the consumer.consume() method.
@@ -523,7 +523,7 @@ class MDML_MOOP(MOOP):
             budget (int): The number of iterations of ParMOO's solver to run.
 
         """
-    
+
         # Generate example data for schema
         EX_SEND_DATA = {'Run_ID': 0, 'time': "hello world"}
         for (name, dt) in self.obj_names:
@@ -552,7 +552,7 @@ class MDML_MOOP(MOOP):
             group = self.GROUP_ID,
             kafka_host = self.HOST_ID,
             schema_host = self.HOST_ID)
-    
+
         # Check the simulation counter
         counter = 0
         for db in self.sim_db:
