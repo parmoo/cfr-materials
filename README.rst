@@ -61,10 +61,12 @@ To cite this work, use the following:
 
 .. code-block:: bibtex
 
-    @misc{cfr-tfmc,
+    @inproceedings{iclr23-cfr-materials,
+        author  = {Chang, Tyler H. and Elias, Jakob R. and Wild, Stefan M. and Chaudhuri, Santanu and Libera, Joseph A.},
         title   = {A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps},
-        author  = {Anonymous Authors},
-        note    = {Under Review}
+        year    = {2023},
+        booktitle = {ICLR 2023, Workshop on Machine Learning for Materials (ML4Materials)},
+        url     = {https://openreview.net/forum?id=8KJS7RPjMqG}
     }
 
 
